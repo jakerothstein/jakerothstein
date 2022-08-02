@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          user: isaec
+          user: jakerothstein
           template: classic
           base: activity, community, repositories, metadata
           config_padding: 6%
