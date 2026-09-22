@@ -128,11 +128,15 @@ def streaks(days, today):
 
 def rel_time(iso, now):
     then = dt.datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc)
+    # Day granularity on purpose: the cards are rebuilt every few hours and
+    # should only change when something actually happened.
     s = int((now - then).total_seconds())
-    for unit, secs in (("y", 31536000), ("mo", 2592000), ("w", 604800), ("d", 86400), ("h", 3600), ("m", 60)):
+    if s < 86400:
+        return "today"
+    for unit, secs in (("y", 31536000), ("mo", 2592000), ("w", 604800), ("d", 86400)):
         if s >= secs:
             return f"{s // secs}{unit} ago"
-    return "just now"
+    return "today"
 
 
 def summarize_events(events, limit=6):
@@ -140,6 +144,8 @@ def summarize_events(events, limit=6):
     now = dt.datetime.now(dt.timezone.utc)
     lines = []
     for ev in events:
+        if ev["repo"]["name"].lower() == f"{LOGIN}/{LOGIN}".lower():
+            continue  # this profile repo: its refresh commits are noise
         repo = ev["repo"]["name"].split("/", 1)[-1]
         p = ev.get("payload", {})
         kind = ev["type"]
