@@ -17,10 +17,10 @@
 <text x="450.0" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#57606a">~/contributions</text>
 <line x1="0.5" y1="44" x2="899.5" y2="44" stroke="#d0d7de"/>
 <text x="28" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" fill="#1a7f37">$</text>
-  <clipPath id="cl-92878535"><rect x="46" y="58" height="19.599999999999998" width="0">
+  <clipPath id="cl-af17d389"><rect x="46" y="58" height="19.599999999999998" width="0">
     <animate attributeName="width" values="0.0;8.43;16.86;25.28;33.71;42.14;50.57;59.0;67.42;75.85;84.28;92.71;101.14;109.56;117.99;126.42;134.85;143.28;151.7;160.13;168.56;176.99;185.42;193.84;202.27;210.7;219.13;227.56;235.98" keyTimes="0.0;0.0357;0.0714;0.1071;0.1429;0.1786;0.2143;0.25;0.2857;0.3214;0.3571;0.3929;0.4286;0.4643;0.5;0.5357;0.5714;0.6071;0.6429;0.6786;0.7143;0.75;0.7857;0.8214;0.8571;0.8929;0.9286;0.9643;1.0" calcMode="discrete" dur="1.273s" begin="0.2s" fill="freeze"/>
   </rect></clipPath>
-  <text x="46" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#0550ae" textLength="235.98" lengthAdjust="spacing" clip-path="url(#cl-92878535)">git log --since 1y | heatmap</text>
+  <text x="46" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#0550ae" textLength="235.98" lengthAdjust="spacing" clip-path="url(#cl-af17d389)">git log --since 1y | heatmap</text>
 <g transform="translate(58 104) scale(1.0000)">
 <text x="-8" y="25" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#57606a">Mon</text>
 <text x="-8" y="55" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#57606a">Wed</text>
@@ -98,7 +98,6 @@
 <rect x="120" y="15" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="120" y="15" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.749s" fill="freeze"/></rect>
 <rect x="120" y="30" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
-<rect x="120" y="30" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.749s" fill="freeze"/></rect>
 <rect x="120" y="45" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="120" y="60" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="120" y="75" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
@@ -404,7 +403,6 @@
 <rect x="630" y="90" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="630" y="90" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.497s" fill="freeze"/></rect>
 <rect x="645" y="0" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
-<rect x="645" y="0" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.519s" fill="freeze"/></rect>
 <rect x="645" y="15" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="645" y="15" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.519s" fill="freeze"/></rect>
 <rect x="645" y="30" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
@@ -427,7 +425,7 @@
 <rect x="660" y="60" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="660" y="60" width="12" height="12" rx="2.5" fill="#30a14e" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.541s" fill="freeze"/></rect>
 <rect x="660" y="75" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
-<rect x="660" y="75" width="12" height="12" rx="2.5" fill="#30a14e" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.541s" fill="freeze"/></rect>
+<rect x="660" y="75" width="12" height="12" rx="2.5" fill="#216e39" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.541s" fill="freeze"/></rect>
 <rect x="660" y="90" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="660" y="90" width="12" height="12" rx="2.5" fill="#216e39" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.541s" fill="freeze"/></rect>
 <rect x="675" y="0" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
@@ -506,7 +504,7 @@
 <rect x="780" y="15" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.717s" fill="freeze"/></rect>
 <rect x="780" y="30" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 </g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="2.94s" fill="freeze"/><text x="28" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">total </tspan><tspan fill="#1a7f37" font-weight="700">1,741</tspan></text><text x="134.3" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">current streak </tspan><tspan fill="#9a6700" font-weight="700">2d</tspan></text><text x="284.4" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">longest streak </tspan><tspan fill="#1a7f37" font-weight="700">12d</tspan></text><text x="441.79999999999995" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">busiest day </tspan><tspan fill="#0550ae" font-weight="700">Aug 1 (204)</tspan></text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="2.94s" fill="freeze"/><text x="28" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">total </tspan><tspan fill="#1a7f37" font-weight="700">1,741</tspan></text><text x="134.3" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">current streak </tspan><tspan fill="#9a6700" font-weight="700">2d</tspan></text><text x="284.4" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">longest streak </tspan><tspan fill="#1a7f37" font-weight="700">12d</tspan></text><text x="441.79999999999995" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">busiest day </tspan><tspan fill="#0550ae" font-weight="700">Aug 1 (203)</tspan></text></g>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#57606a"><text x="754" y="231.0">less</text>
 <rect x="784" y="222.0" width="10" height="10" rx="2" fill="#9be9a8"/>
 <rect x="798" y="222.0" width="10" height="10" rx="2" fill="#40c463"/>

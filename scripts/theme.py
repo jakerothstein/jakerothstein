@@ -4,6 +4,8 @@ Pure SVG + SMIL, no external fonts/scripts, so everything renders through
 GitHub's README image proxy in both light and dark mode.
 """
 
+import zlib
+
 MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 
@@ -83,7 +85,7 @@ def typed(text, x, y, size, color, begin, cps=22, family=MONO, weight="400", cid
 def prompt_line(t, uid, x, y, cmd, begin, size=14):
     """'$ cmd' typed out. Returns (svg, end_time)."""
     p = f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="{size}" fill="{t["prompt"]}">$</text>'
-    s, end, _ = typed(cmd, x + 18, y, size, t["cmd"], begin, cid=f"{uid}-{abs(hash(cmd)) % 10**8}")
+    s, end, _ = typed(cmd, x + 18, y, size, t["cmd"], begin, cid=f"{uid}-{zlib.crc32(cmd.encode()):08x}")
     return p + s, end
 
 

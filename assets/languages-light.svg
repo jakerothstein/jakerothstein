@@ -17,10 +17,10 @@
 <text x="220.0" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#57606a">~/languages</text>
 <line x1="0.5" y1="44" x2="439.5" y2="44" stroke="#d0d7de"/>
 <text x="24" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#1a7f37">$</text>
-  <clipPath id="lg-17293330"><rect x="42" y="59" height="18.2" width="0">
+  <clipPath id="lg-401d350e"><rect x="42" y="59" height="18.2" width="0">
     <animate attributeName="width" values="0.0;7.83;15.65;23.48;31.3;39.13;46.96;54.78;62.61;70.43;78.26;86.09;93.91;101.74;109.56;117.39;125.22;133.04;140.87" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1.0" calcMode="discrete" dur="0.818s" begin="0.2s" fill="freeze"/>
   </rect></clipPath>
-  <text x="42" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#0550ae" textLength="140.87" lengthAdjust="spacing" clip-path="url(#lg-17293330)">tokei --sort bytes</text>
+  <text x="42" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#0550ae" textLength="140.87" lengthAdjust="spacing" clip-path="url(#lg-401d350e)">tokei --sort bytes</text>
 <rect x="24" y="88" width="392" height="10" rx="5" fill="#eaeef2"/>
 <clipPath id="lg-bar"><rect x="24" y="88" width="392" height="10" rx="5"/></clipPath><g clip-path="url(#lg-bar)">
 <rect x="24" y="88" width="0" height="10" fill="#3572A5"><animate attributeName="width" from="0" to="330.37" dur="0.6s" begin="1.22s" fill="freeze"/></rect>
