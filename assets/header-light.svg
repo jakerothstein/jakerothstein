@@ -1,51 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Jake Rothstein - CS at Georgia Tech, previously SWE Intern at GitHub">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Jake Rothstein - CS @ Georgia Tech  ·  prev SWE Intern @ GitHub">
+<defs><linearGradient id="hdr-name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0969da"/></linearGradient></defs>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fa"/></linearGradient>
-  <radialGradient id="glow1"><stop offset="0" stop-color="#8250df" stop-opacity="0.22"/><stop offset="1" stop-color="#8250df" stop-opacity="0"/></radialGradient>
-  <radialGradient id="glow2"><stop offset="0" stop-color="#0969da" stop-opacity="0.18"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient>
-  <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#000000" fill-opacity="0.045"/></pattern>
-  <clipPath id="card"><rect x="0.5" y="0.5" width="899" height="259" rx="16"/></clipPath>
-  <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0969da"/></linearGradient>
+  <linearGradient id="hdr-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6f8fa"/></linearGradient>
+  <radialGradient id="hdr-glow1"><stop offset="0" stop-color="#8250df" stop-opacity="0.22"/><stop offset="1" stop-color="#8250df" stop-opacity="0"/></radialGradient>
+  <radialGradient id="hdr-glow2"><stop offset="0" stop-color="#0969da" stop-opacity="0.18"/><stop offset="1" stop-color="#0969da" stop-opacity="0"/></radialGradient>
+  <pattern id="hdr-dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#000000" fill-opacity="0.045"/></pattern>
+  <clipPath id="hdr-card"><rect x="0.5" y="0.5" width="899" height="259" rx="16"/></clipPath>
 </defs>
-<rect x="0.5" y="0.5" width="899" height="259" rx="16" fill="url(#bg)" stroke="#d0d7de"/>
-<g clip-path="url(#card)">
-<rect width="900" height="260" fill="url(#dots)"/>
-<circle cx="760" cy="40" r="220" fill="url(#glow1)"><animateTransform attributeName="transform" type="translate" values="0 0;-40 30;0 0" dur="14s" repeatCount="indefinite"/></circle>
-<circle cx="120" cy="260" r="200" fill="url(#glow2)"><animateTransform attributeName="transform" type="translate" values="0 0;50 -20;0 0" dur="17s" repeatCount="indefinite"/></circle>
+<rect x="0.5" y="0.5" width="899" height="259" rx="16" fill="url(#hdr-bg)" stroke="#d0d7de"/>
+<g clip-path="url(#hdr-card)"><rect width="900" height="260" fill="url(#hdr-dots)"/>
+<circle cx="760" cy="40" r="220" fill="url(#hdr-glow1)"><animateTransform attributeName="transform" type="translate" values="0 0;-40 30;0 0" dur="14s" repeatCount="indefinite"/></circle>
+<circle cx="120" cy="260" r="200" fill="url(#hdr-glow2)"><animateTransform attributeName="transform" type="translate" values="0 0;50 -20;0 0" dur="17s" repeatCount="indefinite"/></circle>
 </g>
-<g>
 <circle cx="26" cy="24" r="5.5" fill="#ff5f57"/>
 <circle cx="44" cy="24" r="5.5" fill="#febc2e"/>
 <circle cx="62" cy="24" r="5.5" fill="#28c840"/>
 <text x="450.0" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#57606a">jake@github: ~</text>
 <line x1="0.5" y1="44" x2="899.5" y2="44" stroke="#d0d7de"/>
-</g>
 <text x="28" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1a7f37">$</text>
-
-  <clipPath id="clip2310790652496175273"><rect x="46" y="65" height="21.0" width="0">
+  <clipPath id="hdr-44982934"><rect x="46" y="65" height="21.0" width="0">
     <animate attributeName="width" values="0.0;9.03;18.06;27.09;36.12;45.15;54.18" keyTimes="0.0;0.1667;0.3333;0.5;0.6667;0.8333;1.0" calcMode="discrete" dur="0.273s" begin="0.3s" fill="freeze"/>
   </rect></clipPath>
-  <text x="46" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0550ae" textLength="54.18" lengthAdjust="spacing" clip-path="url(#clip2310790652496175273)">whoami</text>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.823s" fill="freeze"/><text x="28" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="-1" fill="url(#nameGrad)">Jake Rothstein</text></g>
+  <text x="46" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0550ae" textLength="54.18" lengthAdjust="spacing" clip-path="url(#hdr-44982934)">whoami</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="0.823s" fill="freeze"/><text x="28" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="-1" fill="url(#hdr-name)">Jake Rothstein</text></g>
 <text x="28" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1a7f37">$</text>
-
-  <clipPath id="clip1342199049916184890"><rect x="46" y="149" height="21.0" width="0">
+  <clipPath id="hdr-88562126"><rect x="46" y="149" height="21.0" width="0">
     <animate attributeName="width" values="0.0;9.03;18.06;27.09;36.12;45.15;54.18;63.21;72.24;81.27;90.3;99.33;108.36;117.39" keyTimes="0.0;0.0769;0.1538;0.2308;0.3077;0.3846;0.4615;0.5385;0.6154;0.6923;0.7692;0.8462;0.9231;1.0" calcMode="discrete" dur="0.591s" begin="1.373s" fill="freeze"/>
   </rect></clipPath>
-  <text x="46" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0550ae" textLength="117.39" lengthAdjust="spacing" clip-path="url(#clip1342199049916184890)">cat about.txt</text>
+  <text x="46" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0550ae" textLength="117.39" lengthAdjust="spacing" clip-path="url(#hdr-88562126)">cat about.txt</text>
 
-  <clipPath id="clip5919384734232447581"><rect x="28" y="178" height="19.599999999999998" width="0">
+  <clipPath id="hdr-about"><rect x="28" y="178" height="19.599999999999998" width="0">
     <animate attributeName="width" values="0.0;8.43;16.86;25.28;33.71;42.14;50.57;59.0;67.42;75.85;84.28;92.71;101.14;109.56;117.99;126.42;134.85;143.28;151.7;160.13;168.56;176.99;185.42;193.84;202.27;210.7;219.13;227.56;235.98;244.41;252.84;261.27;269.7;278.12;286.55;294.98;303.41;311.84;320.26;328.69;337.12;345.55;353.98;362.4;370.83;379.26;387.69" keyTimes="0.0;0.0217;0.0435;0.0652;0.087;0.1087;0.1304;0.1522;0.1739;0.1957;0.2174;0.2391;0.2609;0.2826;0.3043;0.3261;0.3478;0.3696;0.3913;0.413;0.4348;0.4565;0.4783;0.5;0.5217;0.5435;0.5652;0.587;0.6087;0.6304;0.6522;0.6739;0.6957;0.7174;0.7391;0.7609;0.7826;0.8043;0.8261;0.8478;0.8696;0.8913;0.913;0.9348;0.9565;0.9783;1.0" calcMode="discrete" dur="0.767s" begin="2.214s" fill="freeze"/>
   </rect></clipPath>
-  <text x="28" y="192" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#1f2328" textLength="387.69" lengthAdjust="spacing" clip-path="url(#clip5919384734232447581)">CS @ Georgia Tech  ·  prev SWE Intern @ GitHub</text>
+  <text x="28" y="192" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="400" fill="#1f2328" textLength="387.69" lengthAdjust="spacing" clip-path="url(#hdr-about)">CS @ Georgia Tech  ·  prev SWE Intern @ GitHub</text>
 <text x="28" y="226" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" fill="#1a7f37">$</text>
-
-  <clipPath id="clip2949001412573305718"><rect x="46" y="211" height="21.0" width="0">
+  <clipPath id="hdr-83282449"><rect x="46" y="211" height="21.0" width="0">
     <animate attributeName="width" values="0.0;9.03;18.06;27.09;36.12;45.15;54.18;63.21;72.24;81.27;90.3;99.33;108.36;117.39;126.42;135.45;144.48;153.51;162.54;171.57;180.6;189.63" keyTimes="0.0;0.0476;0.0952;0.1429;0.1905;0.2381;0.2857;0.3333;0.381;0.4286;0.4762;0.5238;0.5714;0.619;0.6667;0.7143;0.7619;0.8095;0.8571;0.9048;0.9524;1.0" calcMode="discrete" dur="0.955s" begin="3.2809999999999997s" fill="freeze"/>
   </rect></clipPath>
-  <text x="46" y="226" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0550ae" textLength="189.63" lengthAdjust="spacing" clip-path="url(#clip2949001412573305718)">git log --since=today</text>
-<rect x="241.6" y="213" width="9" height="17" rx="1.5" fill="#0550ae" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="4.24s" repeatCount="indefinite"/></rect>
-<g>
+  <text x="46" y="226" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="400" fill="#0550ae" textLength="189.63" lengthAdjust="spacing" clip-path="url(#hdr-83282449)">git log --since=today</text>
+<rect x="241.6" y="213" width="9.0" height="17" rx="1.5" fill="#0550ae" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="4.236s" repeatCount="indefinite"/></rect>
 <rect x="560" y="62" width="15" height="15" rx="3" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="560" y="81" width="15" height="15" rx="3" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="560" y="100" width="15" height="15" rx="3" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
@@ -226,7 +219,6 @@
 <rect x="845" y="138" width="15" height="15" rx="3" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.37s" fill="freeze"/></rect>
 <rect x="845" y="157" width="15" height="15" rx="3" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="845" y="176" width="15" height="15" rx="3" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
-</g>
 <text x="560" y="213" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#57606a">Atlanta, GA  ·  127.0.0.1</text>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#57606a"><text x="765" y="213">less</text>
 <rect x="800" y="204" width="10" height="10" rx="2" fill="#9be9a8"/>
