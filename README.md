@@ -10,7 +10,7 @@
   <img alt="GitHub stats" src="assets/stats-dark.svg" width="100%">
 </picture>
 
-<p>
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/languages-light.svg">
@@ -19,7 +19,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/activity-light.svg">
-    <img alt="Recent activity" src="assets/activity-dark.svg" width="49%" align="right">
+    <img alt="Recent activity" src="assets/activity-dark.svg" width="49%">
   </picture>
 </p>
 
