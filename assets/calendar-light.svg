@@ -37,7 +37,6 @@
 <text x="600" y="-6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#57606a">Jul</text>
 <text x="660" y="-6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#57606a">Aug</text>
 <text x="735" y="-6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#57606a">Sep</text>
-<rect x="0" y="60" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="0" y="75" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="0" y="90" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="15" y="0" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
@@ -508,6 +507,7 @@
 <rect x="780" y="45" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.717s" fill="freeze"/></rect>
 <rect x="780" y="60" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 <rect x="780" y="60" width="12" height="12" rx="2.5" fill="#9be9a8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.717s" fill="freeze"/></rect>
+<rect x="780" y="75" width="12" height="12" rx="2.5" fill="#ebedf0" stroke="#d0d7de" stroke-width="0.5"/>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="2.94s" fill="freeze"/><text x="28" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">total </tspan><tspan fill="#1a7f37" font-weight="700">1,747</tspan></text><text x="134.3" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">current streak </tspan><tspan fill="#9a6700" font-weight="700">5d</tspan></text><text x="284.4" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">longest streak </tspan><tspan fill="#1a7f37" font-weight="700">12d</tspan></text><text x="441.79999999999995" y="231.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12"><tspan fill="#57606a">busiest day </tspan><tspan fill="#0550ae" font-weight="700">Aug 1 (204)</tspan></text></g>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#57606a"><text x="754" y="231.0">less</text>
