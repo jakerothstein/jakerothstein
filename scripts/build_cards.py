@@ -173,7 +173,9 @@ SKY_W = W
 PITCH, CELL = 13.2, 0.76         # grid pitch in px, tile size as a share of it
 YAW, TILT = math.radians(9), math.radians(42)
 H_MIN, H_MAX = 2.5, 46           # column height range in px
-SWEEP, RISE = 0.9, 0.7           # seconds: left-to-right stagger, and each column's rise
+# Seconds: pause before anything moves (so the page has settled and the eye has
+# arrived), the left-to-right stagger, and each column's own rise.
+HOLD, SWEEP, RISE = 0.9, 2.0, 1.0
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 # Screen-space unit vectors for the week axis, the weekday axis and "up".
 WX, WY = math.cos(YAW), math.sin(YAW) * math.sin(TILT)
@@ -241,7 +243,7 @@ def render_skyline(t, total, weeks):
             continue
         # Rise once from the floor, sweeping left to right; the resting state is
         # the path's own d, so viewers without SMIL just see the finished chart.
-        start = SWEEP * w / max(len(weeks) - 1, 1)
+        start = HOLD + SWEEP * w / max(len(weeks) - 1, 1)
         dur = start + RISE
         out.append(f'<path fill="{fill}" d="{d_of(pts)}"><animate attributeName="d" dur="{dur:.2f}s" calcMode="spline" '
                    f'keyTimes="0;{start / dur:.3f};1" keySplines="0 0 1 1;0.16 1 0.3 1" '
