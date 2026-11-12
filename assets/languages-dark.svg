@@ -1,37 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="236" viewBox="0 0 440 236" role="img" aria-label="Most used languages for jakerothstein">
-<defs>
-  <linearGradient id="lg-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
-  <radialGradient id="lg-glow1"><stop offset="0" stop-color="#a371f7" stop-opacity="0.55"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/></radialGradient>
-  <radialGradient id="lg-glow2"><stop offset="0" stop-color="#39d3f2" stop-opacity="0.45"/><stop offset="1" stop-color="#39d3f2" stop-opacity="0"/></radialGradient>
-  <pattern id="lg-dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#ffffff" fill-opacity="0.035"/></pattern>
-  <clipPath id="lg-card"><rect x="0.5" y="0.5" width="439" height="235" rx="16"/></clipPath>
-</defs>
-<rect x="0.5" y="0.5" width="439" height="235" rx="16" fill="url(#lg-bg)" stroke="#30363d"/>
-<g clip-path="url(#lg-card)"><rect width="440" height="236" fill="url(#lg-dots)"/>
-<circle cx="360" cy="30" r="150" fill="url(#lg-glow1)"><animateTransform attributeName="transform" type="translate" values="0 0;-40 30;0 0" dur="14s" repeatCount="indefinite"/></circle>
-<circle cx="40" cy="246" r="130" fill="url(#lg-glow2)"><animateTransform attributeName="transform" type="translate" values="0 0;50 -20;0 0" dur="17s" repeatCount="indefinite"/></circle>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="68" viewBox="0 0 760 68" role="img" aria-label="Languages by share of public code: Python 71%, TeX 10%, JavaScript 7%, HTML 7%, CSS 3%, Jupyter Notebook 2%, Go 1%">
+<defs><clipPath id="bar"><rect x="0" y="26" width="760" height="8" rx="4.0"/></clipPath></defs>
+<g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+<text x="0" y="12" font-size="12" fill="#9198a1">Languages</text>
+<g clip-path="url(#bar)">
+<rect x="0.0" y="26" width="533.0" height="8" fill="#f0f6fc"/>
+<rect x="535.0" y="26" width="72.1" height="8" fill="#d2d8df"/>
+<rect x="609.1" y="26" width="52.5" height="8" fill="#b4bbc2"/>
+<rect x="663.6" y="26" width="48.9" height="8" fill="#969da4"/>
+<rect x="714.5" y="26" width="20.7" height="8" fill="#797f87"/>
+<rect x="737.2" y="26" width="14.4" height="8" fill="#5b626a"/>
+<rect x="753.6" y="26" width="6.4" height="8" fill="#3d444d"/>
 </g>
-<circle cx="26" cy="24" r="5.5" fill="#ff5f57"/>
-<circle cx="44" cy="24" r="5.5" fill="#febc2e"/>
-<circle cx="62" cy="24" r="5.5" fill="#28c840"/>
-<text x="220.0" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">~/languages</text>
-<line x1="0.5" y1="44" x2="439.5" y2="44" stroke="#30363d"/>
-<text x="24" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" fill="#3fb950">$</text>
-  <clipPath id="lg-401d350e"><rect x="42" y="59" height="18.2" width="0">
-    <animate attributeName="width" values="0.0;7.83;15.65;23.48;31.3;39.13;46.96;54.78;62.61;70.43;78.26;86.09;93.91;101.74;109.56;117.39;125.22;133.04;140.87" keyTimes="0.0;0.0556;0.1111;0.1667;0.2222;0.2778;0.3333;0.3889;0.4444;0.5;0.5556;0.6111;0.6667;0.7222;0.7778;0.8333;0.8889;0.9444;1.0" calcMode="discrete" dur="0.818s" begin="0.2s" fill="freeze"/>
-  </rect></clipPath>
-  <text x="42" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="400" fill="#79c0ff" textLength="140.87" lengthAdjust="spacing" clip-path="url(#lg-401d350e)">tokei --sort bytes</text>
-<rect x="24" y="88" width="392" height="10" rx="5" fill="#21262d"/>
-<clipPath id="lg-bar"><rect x="24" y="88" width="392" height="10" rx="5"/></clipPath><g clip-path="url(#lg-bar)">
-<rect x="24" y="88" width="0" height="10" fill="#3572A5"><animate attributeName="width" from="0" to="307.98" dur="0.6s" begin="1.22s" fill="freeze"/></rect>
-<rect x="331.9778875809739" y="88" width="0" height="10" fill="#3D6117"><animate attributeName="width" from="0" to="41.68" dur="0.6s" begin="1.3s" fill="freeze"/></rect>
-<rect x="373.65364182576866" y="88" width="0" height="10" fill="#f1e05a"><animate attributeName="width" from="0" to="30.32" dur="0.6s" begin="1.38s" fill="freeze"/></rect>
-<rect x="403.9692902041557" y="88" width="0" height="10" fill="#DA5B0B"><animate attributeName="width" from="0" to="8.33" dur="0.6s" begin="1.46s" fill="freeze"/></rect>
-<rect x="412.2980822385623" y="88" width="0" height="10" fill="#00ADD8"><animate attributeName="width" from="0" to="3.70" dur="0.6s" begin="1.54s" fill="freeze"/></rect>
+<rect x="0.0" y="51" width="8" height="8" rx="2" fill="#f0f6fc"/>
+<text x="15.0" y="60" font-size="13"><tspan fill="#f0f6fc">Python</tspan><tspan dx="6" fill="#9198a1">71%</tspan></text>
+<rect x="108.7" y="51" width="8" height="8" rx="2" fill="#d2d8df"/>
+<text x="123.7" y="60" font-size="13"><tspan fill="#f0f6fc">TeX</tspan><tspan dx="6" fill="#9198a1">10%</tspan></text>
+<rect x="200.9" y="51" width="8" height="8" rx="2" fill="#b4bbc2"/>
+<text x="215.9" y="60" font-size="13"><tspan fill="#f0f6fc">JavaScript</tspan><tspan dx="6" fill="#9198a1">7%</tspan></text>
+<rect x="325.2" y="51" width="8" height="8" rx="2" fill="#969da4"/>
+<text x="340.2" y="60" font-size="13"><tspan fill="#f0f6fc">HTML</tspan><tspan dx="6" fill="#9198a1">7%</tspan></text>
+<rect x="422.4" y="51" width="8" height="8" rx="2" fill="#797f87"/>
+<text x="437.4" y="60" font-size="13"><tspan fill="#f0f6fc">CSS</tspan><tspan dx="6" fill="#9198a1">3%</tspan></text>
+<rect x="508.9" y="51" width="8" height="8" rx="2" fill="#5b626a"/>
+<text x="523.9" y="60" font-size="13"><tspan fill="#f0f6fc">Jupyter Notebook</tspan><tspan dx="6" fill="#9198a1">2%</tspan></text>
+<rect x="672.4" y="51" width="8" height="8" rx="2" fill="#3d444d"/>
+<text x="687.4" y="60" font-size="13"><tspan fill="#f0f6fc">Go</tspan><tspan dx="6" fill="#9198a1">1%</tspan></text>
 </g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.52s" fill="freeze"/><circle cx="30" cy="118" r="4.5" fill="#3572A5"/><text x="42" y="122" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#e6edf3">Python</text><text x="416" y="122" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">78.6%</text><text x="356" y="122" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#484f58">718 kB</text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.62s" fill="freeze"/><circle cx="30" cy="137" r="4.5" fill="#3D6117"/><text x="42" y="141" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#e6edf3">TeX</text><text x="416" y="141" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e">10.6%</text><text x="356" y="141" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#484f58">97 kB</text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.72s" fill="freeze"/><circle cx="30" cy="156" r="4.5" fill="#f1e05a"/><text x="42" y="160" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#e6edf3">JavaScript</text><text x="416" y="160" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e"> 7.7%</text><text x="356" y="160" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#484f58">70 kB</text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.82s" fill="freeze"/><circle cx="30" cy="175" r="4.5" fill="#DA5B0B"/><text x="42" y="179" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#e6edf3">Jupyter Notebook</text><text x="416" y="179" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e"> 2.1%</text><text x="356" y="179" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#484f58">19 kB</text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.35s" begin="1.92s" fill="freeze"/><circle cx="30" cy="194" r="4.5" fill="#00ADD8"/><text x="42" y="198" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#e6edf3">Go</text><text x="416" y="198" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#8b949e"> 0.9%</text><text x="356" y="198" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10" fill="#484f58">8 kB</text></g>
 </svg>
