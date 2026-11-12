@@ -173,6 +173,7 @@ SKY_W = W
 PITCH, CELL = 13.2, 0.76         # grid pitch in px, tile size as a share of it
 YAW, TILT = math.radians(9), math.radians(42)
 H_MIN, H_MAX = 2.5, 46           # column height range in px
+SWEEP, RISE = 0.9, 0.7           # seconds: left-to-right stagger, and each column's rise
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 # Screen-space unit vectors for the week axis, the weekday axis and "up".
 WX, WY = math.cos(YAW), math.sin(YAW) * math.sin(TILT)
@@ -207,13 +208,16 @@ def render_skyline(t, total, weeks):
             z = H_MIN + k * (H_MAX - H_MIN) if count else 0.0
             top = _mix(t["lo"], t["hi"], k) if count else t["tile"]
             a, b, c, e = (_pt(w, d, z), _pt(w + CELL, d, z), _pt(w + CELL, d + CELL, z), _pt(w, d + CELL, z))
+            a0, b0, c0, e0 = _pt(w, d), _pt(w + CELL, d), _pt(w + CELL, d + CELL), _pt(w, d + CELL)
+            # Each entry: (final outline, fill, outline while flat on the floor, week).
             if count:
-                c0, e0, b0 = _pt(w + CELL, d + CELL), _pt(w, d + CELL), _pt(w + CELL, d)
-                polys.append(((e, c, c0, e0), _mix(top, t["page"], 0.42)))   # face toward the viewer
-                polys.append(((b, c, c0, b0), _mix(top, t["page"], 0.66)))   # face toward the year's end
-            polys.append(((a, b, c, e), top))
-    xs = [x for pts, _ in polys for x, _ in pts]
-    ys = [y for pts, _ in polys for _, y in pts]
+                polys.append(((e, c, c0, e0), _mix(top, t["page"], 0.42), (e0, c0, c0, e0), w))  # face toward the viewer
+                polys.append(((b, c, c0, b0), _mix(top, t["page"], 0.66), (b0, c0, c0, b0), w))  # face toward the year's end
+                polys.append(((a, b, c, e), top, (a0, b0, c0, e0), w))
+            else:
+                polys.append(((a, b, c, e), top, None, w))
+    xs = [x for pts, *_ in polys for x, _ in pts]
+    ys = [y for pts, *_ in polys for _, y in pts]
     head = 30                                    # room for the caption
     scale = SKY_W / (max(xs) - min(xs))
     ox, oy = -min(xs), -min(ys)
@@ -228,8 +232,20 @@ def render_skyline(t, total, weeks):
         out.append(f'<text x="{(x + ox) * scale:.1f}" y="{head + (y + oy) * scale + 9:.1f}" font-size="10.5" text-anchor="middle">{name}</text>')
     out.append("</g>")
     out.append(f'<g transform="translate(0 {head}) scale({scale:.4f}) translate({ox:.2f} {oy:.2f})">')
-    for pts, fill in polys:
-        out.append(f'<path fill="{fill}" d="M' + "L".join(f"{x:.1f} {y:.1f}" for x, y in pts) + 'Z"/>')
+    def d_of(pts):
+        return "M" + "L".join(f"{x:.1f} {y:.1f}" for x, y in pts) + "Z"
+
+    for pts, fill, flat, w in polys:
+        if flat is None:
+            out.append(f'<path fill="{fill}" d="{d_of(pts)}"/>')
+            continue
+        # Rise once from the floor, sweeping left to right; the resting state is
+        # the path's own d, so viewers without SMIL just see the finished chart.
+        start = SWEEP * w / max(len(weeks) - 1, 1)
+        dur = start + RISE
+        out.append(f'<path fill="{fill}" d="{d_of(pts)}"><animate attributeName="d" dur="{dur:.2f}s" calcMode="spline" '
+                   f'keyTimes="0;{start / dur:.3f};1" keySplines="0 0 1 1;0.16 1 0.3 1" '
+                   f'values="{d_of(flat)};{d_of(flat)};{d_of(pts)}"/></path>')
     out += ["</g>", "</svg>"]
     return "\n".join(out) + "\n"
 
