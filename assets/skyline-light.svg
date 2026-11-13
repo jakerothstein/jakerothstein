@@ -638,5 +638,6 @@
 <path fill="#c8cdd2" d="M668.1 106.9L678.0 107.9L678.0 114.4L668.1 113.4Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M668.1 113.4L678.0 114.4L678.0 114.4L668.1 113.4Z;M668.1 113.4L678.0 114.4L678.0 114.4L668.1 113.4Z;M668.1 106.9L678.0 107.9L678.0 114.4L668.1 113.4Z"/></path>
 <path fill="#dfe2e5" d="M679.6 101.3L678.0 107.9L678.0 114.4L679.6 107.8Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M679.6 107.8L678.0 114.4L678.0 114.4L679.6 107.8Z;M679.6 107.8L678.0 114.4L678.0 114.4L679.6 107.8Z;M679.6 101.3L678.0 107.9L678.0 114.4L679.6 107.8Z"/></path>
 <path fill="#a1a9b2" d="M669.7 100.2L679.6 101.3L678.0 107.9L668.1 106.9Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M669.7 106.7L679.6 107.8L678.0 114.4L668.1 113.4Z;M669.7 106.7L679.6 107.8L678.0 114.4L668.1 113.4Z;M669.7 100.2L679.6 101.3L678.0 107.9L668.1 106.9Z"/></path>
+<path fill="#eceff2" d="M667.6 115.5L677.5 116.5L676.0 123.1L666.1 122.1Z"/>
 </g>
 </svg>
