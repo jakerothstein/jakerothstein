@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="194" viewBox="0 0 760 194" role="img" aria-label="1,820 contributions in the last year, drawn as an isometric field of columns, one per day">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="195" viewBox="0 0 760 195" role="img" aria-label="1,908 contributions in the last year, drawn as an isometric field of columns, one per day">
 <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" fill="#59636e">
-<text x="0" y="12" font-size="12">1,820 contributions in the last year</text>
+<text x="0" y="12" font-size="12">1,908 contributions in the last year</text>
 <text x="53.9" y="119.6" font-size="10.5" text-anchor="middle">Dec</text>
 <text x="110.4" y="125.6" font-size="10.5" text-anchor="middle">Jan</text>
 <text x="166.9" y="131.6" font-size="10.5" text-anchor="middle">Feb</text>
@@ -638,6 +638,9 @@
 <path fill="#c8cdd2" d="M668.1 106.9L678.0 107.9L678.0 114.4L668.1 113.4Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M668.1 113.4L678.0 114.4L678.0 114.4L668.1 113.4Z;M668.1 113.4L678.0 114.4L678.0 114.4L668.1 113.4Z;M668.1 106.9L678.0 107.9L678.0 114.4L668.1 113.4Z"/></path>
 <path fill="#dfe2e5" d="M679.6 101.3L678.0 107.9L678.0 114.4L679.6 107.8Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M679.6 107.8L678.0 114.4L678.0 114.4L679.6 107.8Z;M679.6 107.8L678.0 114.4L678.0 114.4L679.6 107.8Z;M679.6 101.3L678.0 107.9L678.0 114.4L679.6 107.8Z"/></path>
 <path fill="#a1a9b2" d="M669.7 100.2L679.6 101.3L678.0 107.9L668.1 106.9Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M669.7 106.7L679.6 107.8L678.0 114.4L668.1 113.4Z;M669.7 106.7L679.6 107.8L678.0 114.4L668.1 113.4Z;M669.7 100.2L679.6 101.3L678.0 107.9L668.1 106.9Z"/></path>
-<path fill="#eceff2" d="M667.6 115.5L677.5 116.5L676.0 123.1L666.1 122.1Z"/>
+<path fill="#9ea1a5" d="M666.1 99.9L676.0 100.9L676.0 123.1L666.1 122.1Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M666.1 122.1L676.0 123.1L676.0 123.1L666.1 122.1Z;M666.1 122.1L676.0 123.1L676.0 123.1L666.1 122.1Z;M666.1 99.9L676.0 100.9L676.0 123.1L666.1 122.1Z"/></path>
+<path fill="#c6c8ca" d="M677.5 94.3L676.0 100.9L676.0 123.1L677.5 116.5Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M677.5 116.5L676.0 123.1L676.0 123.1L677.5 116.5Z;M677.5 116.5L676.0 123.1L676.0 123.1L677.5 116.5Z;M677.5 94.3L676.0 100.9L676.0 123.1L677.5 116.5Z"/></path>
+<path fill="#575d64" d="M667.6 93.3L677.5 94.3L676.0 100.9L666.1 99.9Z"><animate attributeName="d" dur="3.90s" calcMode="spline" keyTimes="0;0.744;1" keySplines="0 0 1 1;0.16 1 0.3 1" values="M667.6 115.5L677.5 116.5L676.0 123.1L666.1 122.1Z;M667.6 115.5L677.5 116.5L676.0 123.1L666.1 122.1Z;M667.6 93.3L677.5 94.3L676.0 100.9L666.1 99.9Z"/></path>
+<path fill="#eceff2" d="M665.6 124.2L675.5 125.2L673.9 131.9L664.0 130.8Z"/>
 </g>
 </svg>
